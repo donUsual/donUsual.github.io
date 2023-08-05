@@ -1,0 +1,218 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+	padding-bottom: 3rem;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Archivo", sans-serif;
+	font-weight: 500;
+}
+
+body,
+small,
+p,
+ul > li,
+.lead {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+/* OVERWRITES STYLES
+-------------------------------------------------- */
+.bg-main {
+	position: relative;
+	background: #0054a6;
+	background: linear-gradient(30deg, #0054a6 35%, #32aeb3 100%);
+}
+.main-color {
+	color: #0054a6;
+}
+.sec-color {
+	color: #32aeb3;
+}
+
+/* HEADER STYLES
+-------------------------------------------------- */
+.nav-link {
+	color: white;
+}
+.nav-link:hover {
+	color: #32aeb3;
+}
+.active {
+	color: white !important;
+}
+a.sec-color:hover {
+	color: white;
+	text-decoration: underline !important;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	bottom: 3rem;
+	z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+	height: 32rem;
+}
+.bg-img-1 {
+	background-image: url("../img/bg-1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/* MAIN STYLES
+-------------------------------------------------- */
+a.main-color:hover {
+	color: #32aeb3;
+	text-decoration: underline !important;
+}
+.home-services-img {
+	background-image: url("../img/Picture\ 1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.home-projects-img {
+	background-image: url("../img/Picture\ 2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+/* FOOTER STYLES
+-------------------------------------------------- */
+footer a.text-body-secondary:hover {
+	text-decoration: underline !important;
+}
+.f-divider {
+	opacity: 12%;
+}
+/* SVG STYLES
+-------------------------------------------------- */
+.nav-social svg {
+	fill: #fff;
+}
+.nav-social svg:hover {
+	fill: #32aeb3;
+}
+#contact svg,
+footer svg {
+	fill: var(--bs-secondary-color);
+}
+#contact a svg:hover,
+footer a svg:hover {
+	fill: #32aeb3;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* For small screens (up to 767px) */
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 3.5rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	h2 {
+		font-size: 2.625rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	h3 {
+		font-size: 2rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	h4 {
+		font-size: 1.5rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	h5 {
+		font-size: 1.25rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	h6 {
+		font-size: 1rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	.lead {
+		font-size: 1.25rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	.body {
+		font-size: 1rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+
+	small {
+		font-size: 0.875rem;
+		line-height: 1.25; /* Minor third scale */
+	}
+}
+
+/* For larger screens (768px and above) */
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 3.5rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	h2 {
+		font-size: 2.625rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	h3 {
+		font-size: 2rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	h4 {
+		font-size: 1.5rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	h5 {
+		font-size: 1.25rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	h6 {
+		font-size: 1rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	.lead {
+		font-size: 1.25rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	.body {
+		font-size: 1rem;
+		line-height: 1.333; /* Major third scale */
+	}
+
+	small {
+		font-size: 0.875rem;
+		line-height: 1.333; /* Major third scale */
+	}
+}
