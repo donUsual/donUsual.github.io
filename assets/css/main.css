@@ -3,8 +3,6 @@
 
 body {
 	padding-bottom: 3rem;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
 }
 
 h1,
@@ -13,8 +11,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Archivo", sans-serif;
-	font-weight: 500;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
 }
 
 body,
@@ -22,8 +20,8 @@ small,
 p,
 ul > li,
 .lead {
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
 }
 
 /* OVERWRITES STYLES
@@ -32,6 +30,9 @@ ul > li,
 	position: relative;
 	background: #0054a6;
 	background: linear-gradient(30deg, #0054a6 35%, #32aeb3 100%);
+}
+.main-bg-color {
+	background-color: #0054a6;
 }
 .main-color {
 	color: #0054a6;
@@ -71,7 +72,18 @@ a.sec-color:hover {
 	height: 32rem;
 }
 .bg-img-1 {
-	background-image: url("../img/bg-1.png");
+	background-image: url("../img/bg-carousel-1.png"),
+		url("../img/banner-bg-1.jpg");
+}
+.bg-img-2 {
+	background-image: url("../img/banner-bg-2.jpg");
+}
+.bg-img-3 {
+	background-image: url("../img/banner-bg-3.jpg");
+}
+.bg-img-1,
+.bg-img-2,
+.bg-img-3 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -83,16 +95,29 @@ a.main-color:hover {
 	text-decoration: underline !important;
 }
 .home-services-img {
-	background-image: url("../img/Picture\ 1.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+	background-image: url("../img/home-img-1.jpg");
 }
 .home-projects-img {
-	background-image: url("../img/Picture\ 2.jpg");
+	background-image: url("../img/home-img-2.jpg");
+}
+.services-cit-img {
+	background-image: url("../img/services-img-1.jpg");
+}
+.services-pwd-img {
+	background-image: url("../img/services-img-2.jpg");
+}
+.about-us-img {
+	background-image: url("../img/about-img-1.jpg");
+}
+.home-projects-img,
+.home-services-img,
+.services-cit-img,
+.services-pwd-img,
+.about-us-img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+	fill: #32afb341;
 }
 /* FOOTER STYLES
 -------------------------------------------------- */
